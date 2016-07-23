@@ -1,6 +1,14 @@
 source 'https://rubygems.org'
 gem 'bootstrap-sass', '~> 3.3.6'
 
+gem 'simple_form'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.4'
+end
+
+gem 'factory_girl_rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record

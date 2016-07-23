@@ -1,0 +1,7 @@
+<h1>Blog Post</h1>
+<% @posts.each do |post| %>
+	<h2><%= post.title %> by <%= post.author %> </h2>
+	<p>
+		<%= post.comments %>
+	</p>
+<% end %>
